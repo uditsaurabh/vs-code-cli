@@ -22,11 +22,11 @@ brews:
     homepage: https://github.com/uditsaurabh/vs-code-cli
     tap:
       owner: uditsaurabh
-      name: homebrew-vs-code-cli
+      name: homebrew-uditsaurabh
     commit_author:
       name: uditsaurabh
       email: uditsaurabh74@gmail.com
 
 checksum:
   name_template: "checksums.txt"
-  
+
