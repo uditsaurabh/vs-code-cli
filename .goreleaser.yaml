@@ -4,6 +4,7 @@ builds:
       - darwin
       - linux
     goarch:
+      - amd64
       - arm64
     env:
       - CGO_ENABLED=0
@@ -19,7 +20,7 @@ brews:
   -
     name: vs-code-cli
     homepage: https://github.com/uditsaurabh/vs-code-cli
-    tap:
+    repository:
       owner: uditsaurabh
       name: homebrew-uditsaurabh
     commit_author:
