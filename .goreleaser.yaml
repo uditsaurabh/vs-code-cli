@@ -1,0 +1,32 @@
+builds:
+  - binary: vs-code-cli
+    goos: 
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - arm64
+    env:
+      - CGO_ENABLED=0
+    flags:
+      - -mod=vendor
+release:
+    prerelease: auto
+
+universal_binaries:
+  - replace: true
+
+brews:
+  -
+    name: vs-code-cli
+    homepage: https://github.com/uditsaurabh/vs-code-cli
+    tap:
+      owner: uditsaurabh
+      name: homebrew-vs-code-cli
+    commit_author:
+      name: uditsaurabh
+      email: uditsaurabh74@gmail.com
+
+checksum:
+  name_template: "checksums.txt"
+  

@@ -1,0 +1,49 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go specific
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+
+# Dependency directories (remove the comment below if you want to include it)
+# vendor/
+
+# Output of the go build command
+/build/
+
+# Output of the go install command
+/bin/
+
+# Output of go tool cover
+/cover/
+
+# Specific to Go Modules
+# .go-version file
+.go-version
+
+# .env file containing the Go module proxy settings
+.proxy.env
+
+# End of go.mod and go.sum
+/go.sum
+/go.mod
+
+# Log files
+*.log
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
