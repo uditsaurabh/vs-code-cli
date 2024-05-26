@@ -36,8 +36,7 @@
 .proxy.env
 
 # End of go.mod and go.sum
-/go.sum
-/go.mod
+
 
 # Log files
 *.log
