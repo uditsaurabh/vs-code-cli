@@ -103,7 +103,6 @@ func (editor *FileManager) SearchPackage(packageName string) (string, error) {
 		}
 		return nil
 	})
-
 	if err != nil {
 		return "", fmt.Errorf("%s Not able to find the provided package or path so exiting please try again: %v", UnderlineRed, err)
 	}
